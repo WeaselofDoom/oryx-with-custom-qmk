@@ -1,6 +1,6 @@
 #define USB_POLLING_INTERVAL_MS 1
 #define FORCE_NKRO
-
+#define QMK_KEYS_PER_SCAN 4
 
 #undef DEBOUNCE
 #define DEBOUNCE 5
