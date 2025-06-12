@@ -1,3 +1,4 @@
+#undef USB_POLLING_INTERVAL_MS
 #define USB_POLLING_INTERVAL_MS 1
 #define FORCE_NKRO
 #define QMK_KEYS_PER_SCAN 4
@@ -6,11 +7,13 @@
 #define DEBOUNCE 0
 #define DEBOUNCE_TYPE sym_eager_pk
 
-#undef TAPPING_TERM
-#define TAPPING_TERM 0
+#define NO_ACTION_TAPPING
+//#undef TAPPING_TERM
+//#define TAPPING_TERM 0
 
-#undef ONESHOT_TIMEOUT
-#define ONESHOT_TIMEOUT 1
+#define NO_ACTION_ONESHOT
+//#undef ONESHOT_TIMEOUT
+//#define ONESHOT_TIMEOUT 1
 
 #define COMBO_TERM 10
 
@@ -22,4 +25,3 @@
 #define LAYER_STATE_8BIT
 
 #define RGB_MATRIX_STARTUP_SPD 60
-
