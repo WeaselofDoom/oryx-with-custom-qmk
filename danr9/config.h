@@ -3,7 +3,8 @@
 #define QMK_KEYS_PER_SCAN 4
 
 #undef DEBOUNCE
-#define DEBOUNCE 5
+#define DEBOUNCE 0
+#define DEBOUNCE_TYPE sym_eager_pk
 
 #undef TAPPING_TERM
 #define TAPPING_TERM 0
