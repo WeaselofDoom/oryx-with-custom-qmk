@@ -1,12 +1,12 @@
 #undef USB_POLLING_INTERVAL_MS
 #define USB_POLLING_INTERVAL_MS 1
-#define FORCE_NKRO
-#define QMK_KEYS_PER_SCAN 4
+//#define FORCE_NKRO
+//#define QMK_KEYS_PER_SCAN 4
 #define F_SCL 400000L
-#define MATRIX_IO_DELAY 17
+#define MATRIX_IO_DELAY 10
 
 #undef DEBOUNCE
-#define DEBOUNCE 5
+#define DEBOUNCE 3
 #define DEBOUNCE_TYPE sym_eager_pk
 
 #define NO_ACTION_TAPPING
